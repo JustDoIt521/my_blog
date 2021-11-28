@@ -6,8 +6,8 @@ class TopBar extends React.Component {
     render() {
         return (
             <div className="topBar">
-                <Link to="/articleList"></Link>
-                <Link tp="forMe"></Link>
+                <Link to={"/articleList"}>articleList</Link>
+                <Link to={"/aboutMe"}>forme</Link>
             </div>
         )
     }
